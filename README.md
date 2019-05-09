@@ -30,7 +30,7 @@ Run `npm run serve:prod` for checking production build locally. Navigate to `htt
 * angular.json > projects > your-project-name > architect > build > replace `builder` value by:
   * `"builder": "@angular-builders/custom-webpack:browser"`
 * angular.json > projects > your-project-name > architect > build > options > outputPath:
-  * Prepend location with your subfolder, i.e. `"outputPath": "dist/app"`
+  * Prepend output path with your subfolder, i.e. `"outputPath": "dist/app"`
 * angular.json > projects > your-project-name > architect > build > options, add:
   ```
   "customWebpackConfig": { 
@@ -60,3 +60,4 @@ Run `npm run serve:prod` for checking production build locally. Navigate to `htt
     };
   ```
 
+This workaround works with deployments using context-path like http://hostname:xxxx/myapp
