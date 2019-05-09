@@ -4,6 +4,8 @@ This repository presents a workaround for https://github.com/angular/angular-cli
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
+Source: https://alligator.io/angular/custom-webpack-config/
+
 ## Build 
 
 Run `npm run build:prod` to build the project. The build artifacts will be stored in the `dist/` directory.
