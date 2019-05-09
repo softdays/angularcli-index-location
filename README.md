@@ -1,5 +1,7 @@
 # NgcliIndexLocation
 
+This repository presents a workaround for https://github.com/angular/angular-cli/issues/2688.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
 ## Build 
